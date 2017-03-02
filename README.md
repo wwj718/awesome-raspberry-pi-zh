@@ -1,9 +1,12 @@
-#  树莓派(Raspberry Pi)资源大全中文版
-Github上著名的Awesome - XXX 系列，怎能少了树莓派 :)  
+#  树莓派(Raspberry Pi)资源大全中文版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+<a href="https://www.raspberrypi.org"><img src="https://www.raspberrypi.org/wp-content/uploads/2012/03/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="left" style="margin-right: 25px" height=150></a>
+> 树莓派（Raspberry Pi，下面简称RPi）是一系列由英国树莓派基金会（Raspberry Pi Foundation）开发的仅信用卡大小的微型计算机，截止到2017年2月，共发行了RPi 1，RPi 2，RPi 3以及RPi Zero 四款。树莓派发行的初衷，是在学校以及发展中国家推广基础计算机科学，官方主页：[Raspberry Pi Homepage](https://raspberrypi.org)
 
-[awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) 是由 thibmaek 发起维护的 树莓派 资源列表，内容包括树莓派的工具、项目、镜像、资源、社区。
+本列表翻译自[awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi) ，是由 [thibmaek](https://github.com/thibmaek) 发起并维护的树莓派资源列表，内容包括树莓派相关的工具、项目、系统镜像、社区及其他一些资源。
 
-近期我正好在折腾树莓派，觉得资源列表上有很多好玩的项目，遂决定译个中文版本，之后会根据我个人的使用情况添加更详细的注脚，也欢迎国内的树莓派爱好者一起来维护这个列表
+Awesome-XXX 是GitHub上知名的一组项目，其主页：[Awesome 清单](https://github.com/sindresorhus/awesome/blob/master/awesome.md)
+
+近期我正好在折腾树莓派，觉得资源列表上有很多好玩的项目，遂决定译个中文版本，之后会根据我个人的使用情况添加更详细的注脚，也非常欢迎国内的树莓派爱好者一起来维护这个列表，但在这之前，请先阅读[贡献指南](CONTRIBUTING.md)
 
 
 
@@ -25,7 +28,7 @@ Todo
 
 <h2 id="os-images">系统镜像</h2>
 
-- [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) - 来自树莓派官方的操作系统，基于Debian，同时提供一个精简版
+- [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) - 来自树莓派官方的操作系统，基于Debian，同时官方也提供了一个Raspbian的精简版。
 - [NOOBS](https://www.raspberrypi.org/downloads/noobs/) - 新的开箱即用软件, 为初学者准备的系统安装工具.
 - [Ubuntu MATE](https://ubuntu-mate.org/raspberry-pi/) - 为树莓派准备的Ubuntu发行版，基于MATE桌面环境. ![Supports Raspberry Pi 2+](/media/badges/rpi-2+.png)
 - [Snappy Ubuntu Core](https://developer.ubuntu.com/en/snappy/start/raspberry-pi-2/) - 为物联网准备的Ubuntu官方最小发行版 ![Supports Raspberry Pi 2+](/media/badges/rpi-2+.png)
@@ -54,7 +57,8 @@ Todo
 - [Kano OS](http://developers.kano.me/downloads/) - 为探索、创造和玩耍准备准备的开源操作系统 – 对树莓派免费.
 - [resinOS](https://resinos.io) - 在嵌入式设备中跑docker容器的开源操作系统, 考虑了生产环境所需的可靠性
 - [Fedora](https://fedoraproject.org/wiki/Raspberry_Pi#Preparing_the_SD_card) ![Supports Raspberry Pi 2+](/media/badges/rpi-2+.png)
-
+- [motionEyeOS](https://github.com/ccrisan/motioneyeos/wiki) - 将微型计算机打造为视频监控系统的Linux发行版。
+- [NextCloudPi](https://ownyourbits.com/2017/02/13/nextcloud-ready-raspberry-pi-image/) - 基于 LAMP（Linux Apache Mysql PHP） 的 Nextcloud 系统镜像，用于搭建家庭私有云服务。
 
 <h2 id="tools">工具</h2>
 
@@ -66,6 +70,9 @@ Todo
 - [pi-gen](https://github.com/RPi-Distro/pi-gen) - 用于构建树莓派官方镜像的工具. 你可以将其用于构建自己的定制镜像（预装特定软件）
 - [PiVPN](http://www.pivpn.io/) - 简单、灵活的单行安装脚本，用于在树莓派上安装OpenVPN服务
 - [Network Presence Detector](https://github.com/initialstate/pi-sensor-free-presence-detector/wiki) - 配置Pi0，使其可以在wifi网络里扫描，发现谁是"home"
+- [Resin Bridge](https://github.com/resin-io-playground/resin-bridge) - 一个能够将RPid的wlan0接口和连接在eth0接口上的设备进行桥接的程序。
+- [WiFi config generator](https://steveedson.co.uk/tools/wpa/) - 用于生成一个包含wifi配置信息的配置文件wpa_supplicant.conf的小程序。
+- [Raspbian QEMU with network](https://ownyourbits.com/2017/02/06/raspbian-on-qemu-with-network-access/) - 在 Raspbian上运行QEMU的小程序。
 
 <h2 id="projects">项目</h2>
 
@@ -95,6 +102,12 @@ Todo
 - [Planning lunch with a Slackbot on resin.io](https://resin.io/blog/planning-lunch-with-a-slackbot-on-resin-io/) - 用nodejs写的Slack机器人-- 帮助解决"我们该吃什么"
 - [Sonus](https://github.com/evancohen/sonus) - 开源、跨平台的语音识别框架（Google Cloud Speech）
 
+- [Sonic Pi](https://github.com/samaaron/sonic-pi) - 让大家能够通过制作音乐来学习编程的一款音乐合成器
+- [Alexa AVS](https://github.com/alexa/alexa-avs-sample-app/wiki/Raspberry-Pi) - 基于Java客户端和Node.js服务端的 Alexa Voice Service 示例程序
+- [Pi4j Project](http://pi4j.com) - 为RPi编写的具有友好API的Java I/O 库
+- [Harry Potter and the real life Daily Prophet](https://www.raspberrypi.org/blog/harry-potter-and-the-real-life-daily-prophet/) - 通过RPi的7英寸显示模拟哈利波特中的魔法报纸（动态头条）
+- [PiScan](http://denis.papathanasiou.org/posts/2015.05.30.post.html) - 基于RPi和 EAN 扫描仪的 Amazon 条形码扫描器.
+- [PiE-Ink](http://www.htxt.co.za/2017/02/07/pie-ink-is-a-raspberry-pi-name-tag-that-uses-an-e-ink-display/) - 在RPi Zero上运行的E-ink身份卡片 ![Supports Raspberry Pi Zero](media/badges/rpi-0.png)
 <h2 id="resources">资源</h2>
 
 ### 文章
@@ -127,8 +140,7 @@ Todo
 
 
 ### 贡献
-可以在这里找到贡献指南：TODO
-
+可以在这里找到[贡献指南](CONTRIBUTING.md)
 
 ### 协议
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
