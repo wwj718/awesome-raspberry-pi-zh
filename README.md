@@ -59,7 +59,7 @@ Todo
 - [Fedora](https://fedoraproject.org/wiki/Raspberry_Pi#Preparing_the_SD_card) ![Supports Raspberry Pi 2+](/media/badges/rpi-2+.png)
 - [motionEyeOS](https://github.com/ccrisan/motioneyeos/wiki) - 将微型计算机打造为视频监控系统的Linux发行版。
 - [NextCloudPi](https://ownyourbits.com/2017/02/13/nextcloud-ready-raspberry-pi-image/) - 基于 LAMP（Linux Apache Mysql PHP） 的 Nextcloud 系统镜像，用于搭建家庭私有云服务。
-- [Debian-Pi-Aarch64](https://github.com/openfans-community-offical/Debian-Pi-Aarch64)全球发行的第一个同时支持树莓派全系64位硬件的64位系统 !!!
+
 <h2 id="tools">工具</h2>
 
 - [PiBakery](http://www.pibakery.org/) - 基于google的blockly项目, 为树莓派准备的易用的配置工具.
